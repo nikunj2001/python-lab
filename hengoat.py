@@ -1,0 +1,5 @@
+l=int(input("enter the number of legs"))
+h=int(input("enter the number of heads"))
+c=int((4*h-l)/2)
+g=int(h-c)
+print(f"number of goats{g} and number of chickens{c}")
